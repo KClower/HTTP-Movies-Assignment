@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import MovieCard from "./MovieCard";
 
 function MovieList({ movies }) {
+  console.log("movie list::", movies)
   return (
     <div className="movie-list">
       {
