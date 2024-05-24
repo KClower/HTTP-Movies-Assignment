@@ -5,6 +5,11 @@ body {
   background-color: #f2f2f2;
 }
 
+h5 {
+  margin: 0;
+  text-align: left;
+}
+
 .movie-card {
   background-color: #fff;
   border: 0;
@@ -43,28 +48,61 @@ body {
 .saved-movie {
   margin: 0 10px;
 }
+
 .saved-active {
   color: blue;
   border: 1px solid grey;
   padding: 5px;
 }
+
 .save-wrapper {
   position: relative;
   width: 75%;
   margin: 1rem auto;
 }
+
 .save-button {
   position: absolute;
   top: 25px;
-  right: 25px;
+  right: 32px;
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
 }
+
 .save-button:hover {
   background-color: green;
   color: white;
 }
+
+.update-button {
+  position: absolute;
+  top: 75px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: rgb(129, 185, 185);
+}
+
+.update-button:hover {
+  background-color: rgb(117, 221, 117);
+  color: white;
+}
+
+.delete-button {
+  position: absolute;
+  top: 220px;
+  right: 5px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: rgb(211, 50, 50);
+}
+
+.delete-button:hover {
+  background-color: rgb(3, 22, 3);
+  color: white;
+}
+
 
 .home-button {
   padding: 5px 10px;
@@ -74,4 +112,30 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+.form-container {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+}
+
+input {
+  background-color: rgb(187, 184, 184);
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  margin: 0 auto;
+  width: 307px;
+  background-color: yellow;
+}
+
+.submit-btn:hover {
+  background-color: green;
+  color: white;
 }
